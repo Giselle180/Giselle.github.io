@@ -3,7 +3,7 @@ header{
     background-color: #5459AC;
     padding: 10px;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
   }
 
 body {
@@ -28,15 +28,15 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: 30px
+    font-size: 40px
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 footer {
@@ -77,6 +77,7 @@ footer {
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     gap: 20px;
     width: 1200px;
+    padding-bottom: 10px;
     margin: auto;
 }
 
@@ -104,8 +105,17 @@ footer {
 
 li{
     color: #B2D8CE;
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 5px solid #52357B;
+    border-radius: 10px
 }
 
 .img {
@@ -113,14 +123,45 @@ li{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    height: 30%;
+    height: 40%;
 }
 
-.reddit {
-    display: block;
+.duo {
+    display: flex;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+}
+
+aside {
+  width: 40%;
+  padding: 15px;
+  margin: 10px;
+  float: left;
+  font-style: italic;
+  background-color: #648DB3;
+  border-radius: 20px;
+}
+
+
+/* Table */
+
+th {
+  background-color: #52357B;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  color: #B2D8CE;
+  font-size: 25px;
+  border: 2px solid #B2D8CE;
+  text-align: left;
+  padding: 8px;
 }
 
 /* Links */
@@ -128,7 +169,7 @@ a {
   color: #B2D8CE;
   padding: 14px 16px;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 a:hover {
@@ -141,4 +182,32 @@ a.active {
 
 a.visited {
   color: #B2D8CE;
+}
+
+/* Easter egg */
+.pik{
+    background-image: url(Photos/Pikmin.jpg);
+    width: 100%;
+}
+
+.gradient{
+  animation: cabins 5s ease-in-out infinite;
+}
+
+@keyframes cabins {
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75%{
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
 }

@@ -1,0 +1,144 @@
+/* General */
+header{
+    background-color: #5459AC;
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5459AC;
+}
+
+hr {
+    background-color: #52357B;
+    border: 1px solid #52357B;
+    height: 2px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: #B2D8CE;
+}
+
+h1 {
+    font-size: 40px
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: #52357B;
+}
+
+/* Navigation */
+.topnav {
+    background-color: #52357B;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #B2D8CE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #648DB3;
+  color: #B2D8CE;
+}
+
+.topnav a.active {
+  background-color: #52357B;
+  color: #B2D8CE;
+}
+
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
+.index-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
+.item {
+    background-color: #648DB3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Extra */
+.box{
+    padding: 20px;
+    margin: 15px;
+    background-color: #648DB3;
+    border-radius: 50px;
+}
+
+li{
+    color: #B2D8CE;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.reddit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* Links */
+a {
+  color: #B2D8CE;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 20px;
+}
+
+a:hover {
+  color: blue;
+}
+
+a.active {
+  color: #B2D8CE;
+}
+
+a.visited {
+  color: #B2D8CE;
+}
