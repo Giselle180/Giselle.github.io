@@ -49,6 +49,7 @@ footer {
 /* Navigation */
 .topnav {
     background-color: #52357B;
+  text-align: center;
   overflow: hidden;
 }
 
@@ -67,8 +68,7 @@ footer {
 }
 
 .topnav a.active {
-  background-color: #52357B;
-  color: #B2D8CE;
+    color: #B2D8CE;
 }
 
 /* Grid */
@@ -186,8 +186,8 @@ a.visited {
 
 /* Easter egg */
 .pik{
-    background-image: url(Photos/Pikmin.jpg);
-    width: 100%;
+  background-image: url(Photos/Pikmin.jpg);
+  width: 100%;
 }
 
 .gradient{
