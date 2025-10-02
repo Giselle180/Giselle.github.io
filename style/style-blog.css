@@ -122,6 +122,26 @@ li{
     width: 60%;
 }
 
+/* Table */
+
+th {
+  background-color: #E5989B;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  color: #B5828C;
+  font-size: 25px;
+  border: 2px solid #B5828C;
+  text-align: left;
+  padding: 8px;
+}
+
 /* Links */
 a {
   color: #B5828C;
